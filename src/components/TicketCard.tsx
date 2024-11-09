@@ -34,7 +34,7 @@ export function TicketCard({ ticket, onStatusChange, isAdmin }: TicketCardProps)
       <div className="flex items-center justify-between pt-4 border-t border-gray-100">
         <div className="flex items-center text-gray-500 text-sm">
           <Clock className="h-4 w-4 mr-1" />
-          <time>{new Date(ticket.created_at).toLocaleDateString()}</time>
+          <time>{new Date(ticket.created_at).toLocaleString()}</time>
         </div>
         
         {isAdmin && onStatusChange && (
