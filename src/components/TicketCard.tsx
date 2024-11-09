@@ -29,7 +29,7 @@ export function TicketCard({ ticket, onStatusChange, isAdmin }: TicketCardProps)
         </div>
       </div>
       
-      <p className="text-gray-600 mb-4 line-clamp-2">{ticket.description}</p>
+      <p className="text-gray-600 font-semibold mb-4 line-clamp-2">{ticket.description}</p>
       
       <div className="flex items-center justify-between pt-4 border-t border-gray-100">
         <div className="flex items-center text-gray-500 text-sm">
